@@ -13,7 +13,7 @@ Web-3 references:
 
    2. web3.eth.accounts.recover API is changed
 
-    ```js
+```js
     const signTest = async function(){
 
     // Using eth.sign()
@@ -51,7 +51,7 @@ Web-3 references:
 
 - Recover and verify signed-data-hash and signature:
  
- ```js
+```js
  /**
    * @dev Recover signer address from a message by using their signature
    * @param hash bytes32 message, the hash is the signed message. What is recovered is the signer address.
